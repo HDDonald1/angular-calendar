@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --front-color: #9b99ff;
+  --designer-color: #7aafff;
+  --backend-color: #ff9999;
+  --manager-color: #ffa768;
+  --main-row: #f3f3f3;
+  --teamHeader-bg: rgba(155, 153, 255, 0.1);
+  --btn-bg: #48ba46;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+#app-root {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+td {
+  border: 1px solid #d7d7d7;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  outline: none;
+  transition: opacity 0.2s;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+input {
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+.weekend {
+  background: #f0f0f0;
+}
+
+.hidden {
+  display: none;
+}
+.fa-users {
+  font-size: 12px;
+  color: #949494;
+}
+.percent {
+  padding: 0px 4px;
+  font-size: 12px;
+  line-height: 1.2rem;
+  color: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  min-width: 24px;
+  margin: 0px 13px;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
